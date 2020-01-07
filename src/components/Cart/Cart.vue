@@ -14,6 +14,14 @@ export default {
        top,
        mine,
        bo,
-   }
+   },
+   created() {
+    if (window.localStorage.getItem("user")) {
+      // 已经登录
+    } else {
+      // 没有登录，进入登录页面
+      this.$router.replace("/login");
+    }
+  },
 }
 </script>
