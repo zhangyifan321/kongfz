@@ -53,14 +53,14 @@ export default {
 </script>
 <style scoped>
 .mine{width: 100%; }
-.center{width: 95%;margin: 0 auto;padding: 10px;display: flex;flex-direction: column;justify-content: space-around;box-sizing: border-box;height: 470px;}
+.center{width: 95%;margin: 0 auto;padding: 10px;box-sizing: border-box;}
 .top h3{font-size:20px;color: #262626;float: left;margin-left: 10px;}
 .first{width: 100%;overflow-x: auto;}
  .first  ul{width: 600px;padding-top: 10px;}
 ::-webkit-scrollbar{width: 0;height: 0;}
 .first ul li{font-size: 16px;color: #999;float: left;padding-left: 15px;box-sizing: border-box;padding: 10px;}
 .list-t{width: 100%;overflow-x: auto;}
-.last-t .center li{width: 100%;background-color: #fafafa;border-radius: 5px;margin: 0 auto;}
+.last-t .center li{width: 100%;background-color: #fafafa;border-radius: 5px;margin: 0 auto;margin-top: 20px;}
 .center li p{width: 100%;height: 17px; overflow: hidden;}
 .center li p:nth-child(1){font-size: 13px;color: #262626;margin-bottom: 3px;margin-top: 5px;}
 .center li p:nth-child(2){font-size: 10px;color: #999999;}
