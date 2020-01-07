@@ -53,7 +53,7 @@ export default {
 </script>
 <style scoped>
 .mine{width: 100%; }
-.center{width: 95%;margin: 0 auto;padding: 10px;box-sizing: border-box;}
+.center{width: 95%;margin: 0 auto;padding: 10px;box-sizing: border-box;margin-top: 20px;}
 .top h3{font-size:20px;color: #262626;float: left;margin-left: 10px;}
 .first{width: 100%;overflow-x: auto;}
  .first  ul{width: 600px;padding-top: 10px;}
