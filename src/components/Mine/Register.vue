@@ -44,7 +44,7 @@ export default {
         this.pwd.length >= 6 &&
         this.pwd.length <= 20
       ) {
-        fetch("http://127.0.0.1:3000/login/post", {
+        fetch("http://192.168.1.41:3000/login/post",{
         method: "post",
         body: JSON.stringify({
           cell: this.cell,

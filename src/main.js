@@ -17,7 +17,6 @@ Vue.use(Lazyload,{
   loading: loading,
   attempt: 3
 });
-
 import { Field } from 'vant';
 Vue.use(Field);
 import { Icon } from 'vant';
@@ -40,7 +39,6 @@ import 'amfe-flexible/index.js'
 router.beforeEach((to, from, next) => {
   // window.console.log(to.meta.title)
   document.title = to.meta.title
-  window.console.log(from)
   // window.console.log(next) 
   // 这个函数里面必须执行next，否则不显示！！！
   next()
